@@ -1,4 +1,4 @@
-let SYSTEM_USAGE_URL = "http://api.boterop.io/system-usage"
+let SYSTEM_USAGE_URL = "https://api.boterop.io/system-usage"
 
 let interval_sec = 5;
 
