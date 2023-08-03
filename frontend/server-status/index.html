@@ -13,9 +13,14 @@
     <div class="flex-block max-w-xl p-4 md:pd-8 mx-auto mt-4">
         <div class="bg-white shadow overflow-hidden rounded-lg">
             <div class="p-4">
-                <span class="whitespace-nowrap rounded-full bg-blue-100 px-2.5 py-0.5 text-sm text-blue-700">
-                    CPU
-                </span>
+                <div class="flex-row">
+                    <span class="whitespace-nowrap rounded-full bg-blue-100 px-2.5 py-0.5 text-sm text-blue-700">
+                        CPU
+                    </span>
+                    <span id="cpi_title"
+                        class="absolute right-8 whitespace-nowrap  px-2.5 py-0.5 text-sm text-blue-700">
+                    </span>
+                </div>
                 <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="50"
                     class="block rounded-full bg-gray-200 mt-2 mb-4">
                     <span id="cpu_bar" class="block h-4 rounded-full bg-blue-700 text-center text-[10px]/4"
@@ -23,9 +28,14 @@
                         <span id="cpu_text" class="font-bold text-white"> 0% </span>
                     </span>
                 </span>
-                <span class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-sm text-purple-700">
-                    SWAP
-                </span>
+                <div class="flex-row">
+                    <span class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-sm text-purple-700">
+                        SWAP
+                    </span>
+                    <span id="swap_title"
+                        class="absolute right-8 whitespace-nowrap  px-2.5 py-0.5 text-sm text-purple-700">
+                    </span>
+                </div>
                 <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="50"
                     class="block rounded-full bg-gray-200 mt-2 mb-4">
                     <span id="swap_bar" class="block h-4 rounded-full bg-purple-700 text-center text-[10px]/4"
@@ -33,14 +43,34 @@
                         <span id="swap_text" class="font-bold text-white"> 0% </span>
                     </span>
                 </span>
-                <span class="whitespace-nowrap rounded-full bg-red-100 px-2.5 py-0.5 text-sm text-red-700">
-                    MEMORY
-                </span>
+                <div class="flex-row">
+                    <span class="whitespace-nowrap rounded-full bg-red-100 px-2.5 py-0.5 text-sm text-red-700">
+                        MEMORY
+                    </span>
+                    <span id="memory_title"
+                        class="absolute right-8 whitespace-nowrap  px-2.5 py-0.5 text-sm text-red-700">
+                    </span>
+                </div>
                 <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="50"
                     class="block rounded-full bg-gray-200 mt-2 mb-4">
                     <span id="memory_bar" class="block h-4 rounded-full bg-red-700 text-center text-[10px]/4"
                         style="width: 0%">
                         <span id="memory_text" class="font-bold text-white"> 0% </span>
+                    </span>
+                </span>
+                <div class="flex-row">
+                    <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
+                        DISK
+                    </span>
+                    <span id="disk_title"
+                        class="absolute right-8 whitespace-nowrap  px-2.5 py-0.5 text-sm text-green-700">
+                    </span>
+                </div>
+                <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="50"
+                    class="block rounded-full bg-gray-200 mt-2 mb-4">
+                    <span id="disk_bar" class="block h-4 rounded-full bg-green-700 text-center text-[10px]/4"
+                        style="width: 0%">
+                        <span id="disk_text" class="font-bold text-white"> 0% </span>
                     </span>
                 </span>
             </div>
