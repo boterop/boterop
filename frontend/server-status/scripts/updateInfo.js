@@ -8,7 +8,7 @@ const format = bytes => {
     units = ['B', 'KB', 'MB', 'GB', 'TB'];
     currentUnit = 0;
     result = bytes
-    while (numbersTillPoint(result) > 3 && currentUnit < units.length-1) {
+    while (numbersTillPoint(result) > 3 && currentUnit < units.length - 1) {
         currentUnit++;
         result /= 1000
     }
@@ -28,6 +28,7 @@ const update = () => {
             memory_text.textContent = `${data.MEMORY.percent}%`;
             disk_text.textContent = `${data.DISK.percent}%`;
 
+            cpu_title.textContent = `${data.CPU.temperature.toFixed(1)}°C`;
             swap_title.textContent = `${format(data.SWAP.used)}/${format(data.SWAP.total)}`;
             memory_title.textContent = `${format(data.MEMORY.used)}/${format(data.MEMORY.total)}`;
             disk_title.textContent = `${format(data.DISK.used)}/${format(data.DISK.total)}`;
@@ -48,6 +49,7 @@ window.onload = function () {
     memory_text = document.getElementById("memory_text");
     disk_text = document.getElementById("disk_text");
 
+    cpu_title = document.getElementById("cpu_title");
     swap_title = document.getElementById("swap_title");
     memory_title = document.getElementById("memory_title");
     disk_title = document.getElementById("disk_title");
