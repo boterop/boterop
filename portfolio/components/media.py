@@ -26,7 +26,7 @@ def media(data: Media) -> rx.Component:
                 data.linkedin
             ),
             icon_button(
-                "phone",
+                "message-circle",
                 data.whatsapp
             ),
             spacing=Size.SMALL.value
