@@ -10,6 +10,11 @@ from portfolio.views.tech_stack import tech_stack
 
 DATA = data.data
 
+title = DATA.title
+description = DATA.description
+image = DATA.image
+locale = DATA.locale
+
 
 def index() -> rx.Component:
     return rx.center(
@@ -39,11 +44,6 @@ app = rx.App(
     style=BASE_STYLE,
     theme=rx.theme(appearance="dark", accent_color="cyan", radius="full"),
 )
-
-title = DATA.title
-description = DATA.description
-image = DATA.image
-locale = DATA.locale
 
 app.add_page(
     index,
