@@ -29,7 +29,7 @@ def index() -> rx.Component:
             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,
             max_width=MAX_WIDTH,
-            width="100%"
+            width="100%",
         )
     )
 
@@ -37,16 +37,13 @@ def index() -> rx.Component:
 app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
-    theme=rx.theme(
-        appearance="dark",
-        accent_color="cyan",
-        radius="full"
-    )
+    theme=rx.theme(appearance="dark", accent_color="cyan", radius="full"),
 )
 
 title = DATA.title
 description = DATA.description
 image = DATA.image
+locale = DATA.locale
 
 app.add_page(
     index,
@@ -56,6 +53,7 @@ app.add_page(
     meta=[
         {"name": "og:title", "content": title},
         {"name": "og:description", "content": description},
-        {"name": "og:image", "content": image}
-    ]
+        {"name": "og:image", "content": image},
+        {"property": "og:locale", "content": locale},
+    ],
 )
