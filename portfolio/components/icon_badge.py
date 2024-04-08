@@ -1,6 +1,6 @@
 import reflex as rx
 
-from portafolio.styles.styles import EmSize
+from portfolio.styles.styles import EmSize
 
 
 def icon_badge(icon: str) -> rx.Component:

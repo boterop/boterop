@@ -1,12 +1,12 @@
 import reflex as rx
-from portafolio.components.heading import heading
-from portafolio.data import Technology
-from portafolio.styles.styles import EmSize, Size
+from portfolio.components.heading import heading
+from portfolio.data import Technology
+from portfolio.styles.styles import EmSize, Size
 
 
 def tech_stack(technologies: list[Technology]) -> rx.Component:
     return rx.vstack(
-        heading("Tecnologías"),
+        heading("Main Technologies"),
         rx.flex(
             *[
                 rx.badge(

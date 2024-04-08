@@ -1,8 +1,8 @@
 import reflex as rx
-from portafolio.components.heading import heading
-from portafolio.components.media import media
-from portafolio.data import Data
-from portafolio.styles.styles import Size
+from portfolio.components.heading import heading
+from portfolio.components.media import media
+from portfolio.data import Data
+from portfolio.styles.styles import Size
 
 
 def header(data: Data) -> rx.Component:

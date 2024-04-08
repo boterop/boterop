@@ -1,12 +1,12 @@
 import reflex as rx
-from portafolio import data
-from portafolio.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size
-from portafolio.views.about import about
-from portafolio.views.extra import extra
-from portafolio.views.footer import footer
-from portafolio.views.header import header
-from portafolio.views.info import info
-from portafolio.views.tech_stack import tech_stack
+from portfolio import data
+from portfolio.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size
+from portfolio.views.about import about
+from portfolio.views.extra import extra
+from portfolio.views.footer import footer
+from portfolio.views.header import header
+from portfolio.views.info import info
+from portfolio.views.tech_stack import tech_stack
 
 DATA = data.data
 
@@ -19,12 +19,12 @@ def index() -> rx.Component:
             about(DATA.about),
             rx.divider(),
             tech_stack(DATA.technologies),
-            info("Experiencia", DATA.experience),
-            info("Proyectos", DATA.projects),
-            info("Formación", DATA.training),
+            info("Experience", DATA.experience),
+            info("Projects", DATA.projects),
+            info("Education", DATA.training),
             extra(DATA.extras),
             rx.divider(),
-            footer(DATA.media),
+            footer(DATA),
             spacing=Size.MEDIUM.value,
             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,

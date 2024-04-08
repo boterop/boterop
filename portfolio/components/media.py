@@ -1,7 +1,7 @@
 import reflex as rx
-from portafolio.components.icon_button import icon_button
-from portafolio.data import Media
-from portafolio.styles.styles import Size
+from portfolio.components.icon_button import icon_button
+from portfolio.data import Media
+from portfolio.styles.styles import Size
 
 
 def media(data: Media) -> rx.Component:
@@ -24,6 +24,10 @@ def media(data: Media) -> rx.Component:
             icon_button(
                 "linkedin",
                 data.likedin
+            ),
+            icon_button(
+                "phone",
+                data.whatsapp
             ),
             spacing=Size.SMALL.value
         ),

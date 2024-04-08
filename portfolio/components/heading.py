@@ -1,5 +1,5 @@
 import reflex as rx
-from portafolio.styles.styles import Size
+from portfolio.styles.styles import Size
 
 
 def heading(text: str, h1=False) -> rx.Component:

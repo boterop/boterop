@@ -1,8 +1,8 @@
 import reflex as rx
-from portafolio.components.card_detail import card_detail
-from portafolio.components.heading import heading
-from portafolio.data import Extra
-from portafolio.styles.styles import Size
+from portfolio.components.card_detail import card_detail
+from portfolio.components.heading import heading
+from portfolio.data import Extra
+from portfolio.styles.styles import Size
 
 
 def extra(extras: list[Extra]) -> rx.Component:
