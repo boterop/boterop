@@ -1,128 +1,141 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Santiago Botero | Portfolio",
+    "description": "Santiago Botero Portfolio and Projects",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Santiago Botero Pelaez",
+    "skill": "Backend Software Developer",
+    "location": "Colombia",
     "media": {
-        "email": "neo@metacortex.com",
-        "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "email": "santiago@boterop.io",
+        "cv": "/documents/cv.pdf",
+        "github": "https://github.com/boterop",
+        "linkedin": "https://linkedin.com/in/boterop",
+        "whatsapp": "https://api.whatsapp.com/send?phone=573015203261"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Self-taught backend developer passionate about exploring and learning new languages and technologies. Always ready to tackle challenges and grow in the tech world.",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
+            "icon": "devicon-elixir-plain",
+            "name": "Elixir"
         },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-react-original",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+        },
+        {
+            "icon": "devicon-linux-plain",
+            "name": "Linux"
         }
     ],
     "experience": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
+            "icon": "person-standing",
+            "title": "Personal Soft",
+            "subtitle": "Senior Software Developer",
+            "description": "I developed and addressed errors in Azure Pipelines, introduced new plugins to SonarQube, and created acceptance tests using Karate.",
+            "date": "2023"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "activity",
+            "title": "Kommit",
+            "subtitle": "Mid Software Developer",
+            "description": "I spearheaded open-source projects, developed a blockchain SDK using Elixir, addressed client requirements for podcast websites, implemented Elasticsearch, and resolved cache issues on Cloudflare.",
+            "date": "2022"
+        },
+        {
+            "icon": "at-sign",
+            "title": "Answer CPI",
+            "subtitle": "Software Developer",
+            "description": "I led the implementation of GitHub actions for CI/CD, developed a Docker container integrating PHP, JavaScript, and SQL, and designed a video advertising system similar to YouTube ads.",
+            "date": "2021"
         }
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "podcast",
+            "title": "Podnation",
+            "subtitle": "Private Company Project",
+            "description": "Platform for uploading, managing, and administering podcasts smoothly, with integrated analytics tools.",
             "technologies": [
+                {
+                    "icon": "devicon-elixir-plain",
+                    "name": "Elixir"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "Javascript"
+                }
+            ],
+            "image": "/projects/podnation.jpg",
+            "url": "https://www.podnation.co/",
+            "github": "https://github.com/podnation"
+        },
+        {
+            "icon": "brain",
+            "title": "Interior Vision AI",
+            "subtitle": "Personal Project",
+            "description": "Chat GPT Virtual interior design assistant offering personalized recommendations to transform any space. Visualize with Dall-E and experiment with diverse styles and configurations for your living room, bedroom, kitchen, and more.",
+            "technologies": [
+                {
+                    "icon": "devicon-react-original",
+                    "name": "React Native"
+                },
                 {
                     "icon": "devicon-python-plain",
                     "name": "Python"
-                },
-                {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
                 }
             ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
-                }
-            ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/projects/interior_vision.jpg",
+            "url": "https://play.google.com/store/apps/details?id=com.interior_vision",
+            "github": "https://github.com/boterop/interior_vision"
         }
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "book-plus",
+            "title": "Platzi",
+            "subtitle": "Online",
+            "description": "Has been my go-to platform for learning topics aligned with my professional needs and technological curiosity.",
+            "date": "2021 - now",
+            "certificate": "https://platzi.com/p/santiago-botero-pelaez/"
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "University of Quindio",
+            "subtitle": "8th Semester",
+            "description": "I gained solid foundations in programming, mathematics, and logical thinking. I specialized in Java, JavaScript, Linux, and advanced object-oriented programming concepts.",
+            "date": "2017 - 2021",
+            "certificate": ""
         }
     ],
     "extras": [
         {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
+            "title": "App Icon Sizes Generator",
+            "description": "Script designed to generate all required mobile app sizes effortlessly, streamlining development and design processes.",
+            "url": "https://github.com/boterop/app-icon-sizes-generator"
         },
         {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
+            "title": "Mobile Apps",
+            "description": "Developed cross-platform mobile applications using React Native, tailored specifically for the Android platform.",
+            "url": "https://play.google.com/store/apps/dev?id=8284076978175784771"
         },
         {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "title": "Python Endpoints & Scripts",
+            "description": "Python scripts and endpoints designed to manage and control essential functions.",
+            "url": "https://github.com/stars/boterop/lists/endpoints-scripts"
         }
     ]
 }
