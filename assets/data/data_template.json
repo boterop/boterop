@@ -3,6 +3,7 @@
     "description": "Descripción",
     "image": "/favicon.ico",
     "avatar": "/favicon.ico",
+    "locale": "en_US",
     "name": "Nombre",
     "skill": "Habilidad principal",
     "location": "Localización",
