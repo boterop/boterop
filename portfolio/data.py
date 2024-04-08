@@ -2,11 +2,11 @@ import json
 
 
 class Media:
-    def __init__(self, email, cv, github, likedin, whatsapp):
+    def __init__(self, email, cv, github, linkedin, whatsapp):
         self.email = email
         self.cv = cv
         self.github = github
-        self.likedin = likedin
+        self.linkedin = linkedin
         self.whatsapp = whatsapp
 
 
@@ -31,8 +31,7 @@ class Info:
 
 
 class Extra:
-    def __init__(self, image, title, description, url):
-        self.image = image
+    def __init__(self, title, description, url):
         self.title = title
         self.description = description
         self.url = url

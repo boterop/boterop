@@ -10,7 +10,7 @@
         "email": "email@email.com",
         "cv": "/data/cv.pdf",
         "github": "https://github.com",
-        "likedin": "https://linkedin.com",
+        "linkedin": "https://linkedin.com",
         "whatsapp": "https://api.whatsapp.com/send?phone="
     },
     "about": "Descripción",
@@ -115,19 +115,16 @@
     ],
     "extras": [
         {
-            "image": "/favicon.ico",
             "title": "Título",
             "description": "Descripción",
             "url": ""
         },
         {
-            "image": "/favicon.ico",
             "title": "Título",
             "description": "Descripción",
             "url": ""
         },
         {
-            "image": "/favicon.ico",
             "title": "Título",
             "description": "Descripción",
             "url": ""
