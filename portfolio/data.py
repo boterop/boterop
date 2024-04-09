@@ -10,6 +10,13 @@ class Media:
         self.whatsapp = whatsapp
 
 
+class Language:
+    def __init__(self, icon, name, level):
+        self.icon = icon
+        self.name = name
+        self.level = level
+
+
 class Technology:
     def __init__(self, icon, name):
         self.icon = icon
@@ -62,6 +69,7 @@ class Data:
         location,
         media,
         about,
+        languages,
         technologies,
         experience,
         projects,
@@ -78,6 +86,7 @@ class Data:
         self.location = location
         self.media = Media(**media)
         self.about = about
+        self.languages = [Language(**lang) for lang in languages]
         self.technologies = [Technology(**tech) for tech in technologies]
         self.experience = [Info(**info) for info in experience]
         self.projects = [Info(**info) for info in projects]
