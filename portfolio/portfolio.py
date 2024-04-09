@@ -7,6 +7,7 @@ from portfolio.views.footer import footer
 from portfolio.views.header import header
 from portfolio.views.info import info
 from portfolio.views.tech_stack import tech_stack
+from portfolio.views.languages import languages
 
 DATA = data.data
 
@@ -23,6 +24,7 @@ def index() -> rx.Component:
             header(DATA),
             about(DATA.about),
             rx.divider(),
+            languages(DATA.languages),
             tech_stack(DATA.technologies),
             info("Experience", DATA.experience),
             info("Projects", DATA.projects),
