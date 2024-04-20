@@ -19,7 +19,10 @@ def glow_card(extra: Extra) -> rx.Component:
         is_external=True,
     )
 
-    return rx.card(
+    return rx.box(
+        rx.box(
+            custom_attrs={"data-glow": ""},
+        ),
         rx.link(
             rx.flex(
                 rx.text.strong(extra.title),
@@ -32,8 +35,9 @@ def glow_card(extra: Extra) -> rx.Component:
                 spacing="1",
             ),
             href=extra.url,
+            width="100%",
+            height="100%",
         ),
-        width="100%",
-        is_external=True,
+        class_name="glow-card",
         custom_attrs={"data-glow": ""},
     )
