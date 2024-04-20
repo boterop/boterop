@@ -20,11 +20,8 @@ class Size(Enum):
 
 
 STYLESHEETS = [
-    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css",
+    "/stylesheets/glow_card_style.css",
 ]
 
-BASE_STYLE = {
-    rx.button: {
-        "--cursor-button": "pointer"
-    }
-}
+BASE_STYLE = {rx.button: {"--cursor-button": "pointer"}}
