@@ -1,7 +1,5 @@
 import reflex as rx
 
-from reflex.components.radix.themes.base import Theme
-
 
 def icon_button(
     icon: str,
@@ -15,7 +13,6 @@ def icon_button(
     border = "border-0" if solid else "border"
     border_color = "transparent" if solid else "cyan-700"
     color = "white" if solid else "cyan-500"
-    print(Theme.get_props())
     return rx.flex(
         rx.link(
             rx.flex(
