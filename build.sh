@@ -8,3 +8,4 @@ reflex export --frontend-only
 unzip frontend.zip -d public
 rm -f frontend.zip
 deactivate
+cp -r server-status public/
