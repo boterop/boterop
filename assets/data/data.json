@@ -73,7 +73,7 @@
       "icon": "podcast",
       "title": "Podnation",
       "subtitle": "Private Company Project",
-      "description": "Platform for uploading, managing, and administering podcasts smoothly, with integrated analytics tools.",
+      "description": "I collaborated with my colleagues to address and resolve bugs, develop new features, and enhance the platform's functionality. Additionally, I integrated an ad insertion system for podcasts in the free plans and managed subscriptions using Stripe, among other tasks. On the frontend, I designed and implemented an engaging animation and a landing page. ",
       "technologies": [
         {
           "icon": "devicon-elixir-plain",

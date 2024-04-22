@@ -6,31 +6,14 @@ from portfolio.styles.styles import Size
 
 def media(data: Media) -> rx.Component:
     return rx.flex(
-        icon_button(
-            "mail",
-            f"mailto:{data.email}",
-            data.email,
-            True
-        ),
+        icon_button("mail", f"mailto:{data.email}", data.email, True),
         rx.hstack(
-            icon_button(
-                "file-text",
-                data.cv
-            ),
-            icon_button(
-                "github",
-                data.github
-            ),
-            icon_button(
-                "linkedin",
-                data.linkedin
-            ),
-            icon_button(
-                "message-circle",
-                data.whatsapp
-            ),
-            spacing=Size.SMALL.value
+            icon_button("file-text", data.cv),
+            icon_button("github", data.github),
+            icon_button("linkedin", data.linkedin),
+            icon_button("message-circle", data.whatsapp),
+            spacing=Size.SMALL.value,
         ),
         spacing=Size.SMALL.value,
-        flex_direction=["column", "column", "row"]
+        flex_direction=["column", "column", "row"],
     )
