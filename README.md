@@ -6,7 +6,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 > [!IMPORTANT]
-> Template developed by [MoureDev](https://twitch.tv/mouredev) using [Python](https://python.org) y [Reflex](https://reflex.dev)
+> Template developed by [MoureDev](https://twitch.tv/mouredev) using [Python](https://python.org) and [Reflex](https://reflex.dev)
 
 ## Set Up
 
