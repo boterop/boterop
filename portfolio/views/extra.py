@@ -16,6 +16,7 @@ def extra(extras: list[Extra]) -> rx.Component:
             width="100%",
         ),
         rx.tablet_and_desktop(
+            rx.script(src="/scripts/glow_card_script.js"),
             rx.grid(
                 *[glow_card(extra) for extra in extras],
                 spacing=Size.DEFAULT.value,
