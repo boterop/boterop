@@ -21,6 +21,7 @@ def index() -> rx.Component:
     return rx.center(
         # rx.theme_panel(),
         rx.vstack(
+            rx.script(src="/scripts/glow_card_script.js"),
             header(DATA),
             about(DATA.about),
             rx.divider(),
