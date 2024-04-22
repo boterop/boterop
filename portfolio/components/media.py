@@ -17,7 +17,7 @@ def media(data: Media) -> rx.Component:
                     on_click=rx.set_clipboard(data.email),
                     variant="ghost",
                 ),
-                "border-inherit border-solid rounded-full",
+                "rounded-full",
             ),
         ),
         rx.hstack(

@@ -15,13 +15,13 @@ def icon_button(
             rx.flex(
                 rx.icon(icon, color="white"),
                 rx.container(text, class_name="pt-0.5"),
-                spacing="2",
+                spacing="2" if text != "" else "0",
                 class_name="text-white text-sm font-bold",
             ),
             href=url,
             is_external=True,
         ),
         child,
-        class_name=f"items-center px-3 py-1 {background} {class_name}",
+        class_name=f"items-center px-3 py-1 rounded-full {background} {class_name}",
         spacing="3",
     )
