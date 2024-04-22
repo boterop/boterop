@@ -6,19 +6,7 @@ from portfolio.styles.styles import Size
 
 def media(data: Media) -> rx.Component:
     return rx.flex(
-        rx.flex(
-            icon_button(
-                "mail",
-                f"mailto:{data.email}",
-                data.email,
-                True,
-                rx.button(
-                    rx.icon("copy", color="white", size=16),
-                    on_click=rx.set_clipboard(data.email),
-                    variant="ghost",
-                ),
-            ),
-        ),
+        icon_button("mail", f"mailto:{data.email}", data.email, True),
         rx.hstack(
             icon_button("file-text", data.cv),
             icon_button("github", data.github),
