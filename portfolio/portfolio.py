@@ -8,6 +8,7 @@ from portfolio.views.header import header
 from portfolio.views.info import info
 from portfolio.views.tech_stack import tech_stack
 from portfolio.views.languages import languages
+from portfolio.views.quote import quote
 
 DATA = data.data
 
@@ -30,6 +31,7 @@ def index() -> rx.Component:
             info("Projects", DATA.projects),
             info("Education", DATA.training),
             extra(DATA.extras),
+            quote(),
             rx.divider(),
             footer(DATA),
             spacing=Size.MEDIUM.value,
