@@ -23,6 +23,7 @@ def glow_card(extra: Extra) -> rx.Component:
             href=extra.url,
             width="100%",
             height="100%",
+            is_external=True,
         ),
         class_name="glow-card",
         custom_attrs={"data-glow": ""},
