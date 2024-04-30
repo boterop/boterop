@@ -26,23 +26,23 @@
     },
     {
       "icon": "devicon-python-plain",
-      "name": "Python"
+      "name": "Python [Django, Reflex]"
     },
     {
-      "icon": "devicon-react-original",
-      "name": "React"
+      "icon": "devicon-javascript-plain",
+      "name": "Javascript and React"
     },
     {
       "icon": "devicon-git-plain",
       "name": "Git"
     },
     {
-      "icon": "devicon-postgresql-plain",
-      "name": "PostgreSQL"
+      "icon": "devicon-docker-plain",
+      "name": "Docker"
     },
     {
-      "icon": "devicon-linux-plain",
-      "name": "Linux"
+      "icon": "devicon-postgresql-plain",
+      "name": "PostgreSQL"
     }
   ],
   "experience": [
@@ -73,7 +73,7 @@
       "icon": "podcast",
       "title": "Podnation",
       "subtitle": "Private Company Project",
-      "description": "I collaborated with my colleagues to address and resolve bugs, develop new features, and enhance the platform's functionality. Additionally, I integrated an ad insertion system for podcasts in the free plans and managed subscriptions using Stripe, among other tasks. On the frontend, I designed and implemented an engaging animation and a landing page. ",
+      "description": "I collaborated with my colleagues to address and resolve bugs, develop new features, and enhance the platform's functionality. Additionally, I integrated an ad insertion system for podcasts in the free plans and managed subscriptions using Stripe, among other tasks. On the frontend, I designed and implemented an engaging animation and a landing page.",
       "technologies": [
         {
           "icon": "devicon-elixir-plain",
@@ -89,23 +89,42 @@
       "github": "https://github.com/podnation"
     },
     {
+      "icon": "presentation",
+      "title": "Mintacoin Landing Page",
+      "subtitle": "Open source SDK landing page",
+      "description": "Unworthily the project is closed (https://mintacoin.co/) but I want to share the landing page I made for them.",
+      "technologies": [
+        {
+          "icon": "devicon-tailwindcss-original",
+          "name": "Tailwind"
+        },
+        {
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "icon": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ],
+      "image": "/projects/mintacoin.jpg",
+      "url": "https://boterop.github.io/mintacoin-landing/",
+      "github": "https://github.com/boterop/mintacoin-landing"
+    },
+    {
       "icon": "brain",
-      "title": "Interior Vision AI",
+      "title": "Rummy Timer",
       "subtitle": "Personal Project",
-      "description": "Chat GPT Virtual interior design assistant offering personalized recommendations to transform any space. Visualize with Dall-E and experiment with diverse styles and configurations for your living room, bedroom, kitchen, and more.",
+      "description": "Just a basic timer, but it's easy to restart. Why is this here? Well, it's a real product with over +100 user downloads.",
       "technologies": [
         {
           "icon": "devicon-react-original",
           "name": "React Native"
-        },
-        {
-          "icon": "devicon-python-plain",
-          "name": "Python"
         }
       ],
-      "image": "/projects/interior_vision.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.interior_vision",
-      "github": "https://github.com/boterop/interior_vision"
+      "image": "/projects/rummy_timer.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sanbope.rummy_timer",
+      "github": "https://github.com/boterop/RummyTimer"
     }
   ],
   "training": [
@@ -128,14 +147,24 @@
   ],
   "extras": [
     {
-      "title": "App Icon Sizes Generator",
-      "description": "Script designed to generate all required mobile app sizes effortlessly, streamlining development and design processes.",
-      "url": "https://github.com/boterop/app-icon-sizes-generator"
+      "title": "VS Code Extensions",
+      "description": "Create Visual Studio Code widgets using npm to address the needs of myself and individuals seeking solutions, but lacking the expertise to create their extensions.",
+      "url": "https://marketplace.visualstudio.com/publishers/boterop"
     },
     {
       "title": "Mobile Apps",
       "description": "Developed cross-platform mobile applications using React Native, tailored specifically for the Android platform.",
       "url": "https://play.google.com/store/apps/dev?id=8284076978175784771"
+    },
+    {
+      "title": "XP Health - Minecraft Mod",
+      "description": "Indeed, I've created my own mods to enhance not only my personal gaming experience but also that of over 3,000 users who have downloaded them.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/xp-health"
+    },
+    {
+      "title": "App Icon Sizes Generator",
+      "description": "Script designed to generate all required mobile app sizes effortlessly, streamlining development and design processes.",
+      "url": "https://github.com/boterop/app-icon-sizes-generator"
     },
     {
       "title": "Python Endpoints & Scripts",
