@@ -14,7 +14,7 @@
     "linkedin": "https://linkedin.com/in/boterop",
     "whatsapp": "https://api.whatsapp.com/send?phone=573015203261"
   },
-  "about": "I am excited to collaborate with others and tackle challenging projects that push me to grow as a developer",
+  "about": "I primarily specialize in backend software development, while also gaining proficiency in frontend, DevOps, testing, mobile and game development, among other areas. I am excited to collaborate with others and tackle challenging projects that push me to grow as a developer",
   "languages": [
     { "icon": "🇬🇧", "name": "English", "level": "B2" },
     { "icon": "🇪🇸", "name": "Spanish", "level": "Native" }
@@ -148,7 +148,7 @@
   "extras": [
     {
       "title": "VS Code Extensions",
-      "description": "Create Visual Studio Code widgets using npm to address the needs of myself and individuals seeking solutions, but lacking the expertise to create their extensions.",
+      "description": "Developed Visual Studio Code widgets using npm to address both personal needs and those of others.",
       "url": "https://marketplace.visualstudio.com/publishers/boterop"
     },
     {
