@@ -10,7 +10,9 @@
 
 <br>
 
-<div align="center" style="display: inline-block; height: 150px; width: 100%">
-    <img src="https://github-contribution-stats.vercel.app/api/?username=boterop" alt="Contribution Stats" loading="lazy">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=boterop&theme=react-dark" alt="Gráfico de actividad de GitHub" loading="lazy">
-</div>
+<table align="center" width="100%" >
+  <tr>
+    <td width="28%"><img src="https://github-contribution-stats.vercel.app/api/?username=boterop" alt="Contribution Stats" loading="lazy"></td>
+    <td><img src="https://github-readme-activity-graph.vercel.app/graph?username=boterop&theme=react-dark" alt="Gráfico de actividad de GitHub" loading="lazy"></td>
+  </tr>
+</table>
