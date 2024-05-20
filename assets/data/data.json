@@ -1,15 +1,15 @@
 {
   "title": "Santiago Botero | Portfolio",
   "description": "Santiago Botero Portfolio and Projects",
-  "image": "/avatar.jpg",
-  "avatar": "/avatar.jpg",
+  "image": "avatar.jpg",
+  "avatar": "avatar.jpg",
   "locale": "en_US",
   "name": "Santiago Botero Pelaez",
   "skill": "Backend Software Developer",
   "location": "Colombia",
   "media": {
     "email": "santiago@boterop.io",
-    "cv": "/documents/cv.pdf",
+    "cv": "documents/cv.pdf",
     "github": "https://github.com/boterop",
     "linkedin": "https://linkedin.com/in/boterop",
     "whatsapp": "https://api.whatsapp.com/send?phone=573015203261"
@@ -84,7 +84,7 @@
           "name": "Javascript"
         }
       ],
-      "image": "/projects/podnation.jpg",
+      "image": "projects/podnation.jpg",
       "url": "https://www.podnation.co/",
       "github": "https://github.com/podnation"
     },
@@ -107,7 +107,7 @@
           "name": "CSS"
         }
       ],
-      "image": "/projects/mintacoin.jpg",
+      "image": "projects/mintacoin.jpg",
       "url": "https://boterop.github.io/mintacoin-landing/",
       "github": "https://github.com/boterop/mintacoin-landing"
     },
@@ -115,14 +115,14 @@
       "icon": "brain",
       "title": "Rummy Timer",
       "subtitle": "Personal Project",
-      "description": "Just a basic timer, but it's easy to restart. Why is this here? Well, it's a real product with over +100 user downloads.",
+      "description": "I developed a mobile application to manage the time of each player in a Rummy game. The app is available on the Google Play Store.",
       "technologies": [
         {
           "icon": "devicon-react-original",
           "name": "React Native"
         }
       ],
-      "image": "/projects/rummy_timer.jpg",
+      "image": "projects/rummy_timer.jpg",
       "url": "https://play.google.com/store/apps/details?id=com.sanbope.rummy_timer",
       "github": "https://github.com/boterop/RummyTimer"
     }
@@ -150,6 +150,11 @@
       "title": "VS Code Extensions",
       "description": "Developed Visual Studio Code widgets using npm to address both personal needs and those of others.",
       "url": "https://marketplace.visualstudio.com/publishers/boterop"
+    },
+    {
+      "title": "pip modules",
+      "description": "Developed Python modules to streamline development processes and enhance the functionality of various applications.",
+      "url": "https://pypi.org/user/boterop/"
     },
     {
       "title": "Mobile Apps",
