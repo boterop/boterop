@@ -7,6 +7,8 @@
   <img src="assets/banner.jpg" style="max-height: 300px; aspect-ratio: 4:1">
 </div>
 
+[![An image of @boterop's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/boterop)](https://holopin.io/@boterop)
+
 <img width="43%" src="https://github-readme-stats.vercel.app/api/top-langs?username=boterop&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="Most used languages"><img width="56%" src="https://github-readme-stats.vercel.app/api?username=boterop&show_icons=true&theme=react-dark" alt="Stats">
 
 <img width="26%" src="https://github-contribution-stats.vercel.app/api/?username=boterop" alt="Contribution Stats"></td>
