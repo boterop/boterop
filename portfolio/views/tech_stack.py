@@ -1,10 +1,9 @@
 import reflex as rx
 from portfolio.components.heading import heading
-from portfolio.data import Technology
-from portfolio.styles.styles import EmSize, Size
+from portfolio.styles.styles import Size
 
 
-def tech_stack(technologies: list[Technology]) -> rx.Component:
+def tech_stack(technologies: list[str]) -> rx.Component:
     return rx.vstack(
         heading("Main Technologies"),
         rx.flex(
