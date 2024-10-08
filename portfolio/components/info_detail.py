@@ -14,7 +14,7 @@ def info_detail(info: Info) -> rx.Component:
                 rx.text(info.subtitle),
                 rx.text(info.description, size=Size.SMALL.value, color_scheme="gray"),
                 rx.cond(
-                    info.technologies,
+                    len(info.technologies) > 0,
                     rx.flex(
                         *[
                             rx.badge(

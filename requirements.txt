@@ -1,2 +1,2 @@
-reflex==0.4.8
+reflex==0.6.1
 virtualenv==20.25.3
