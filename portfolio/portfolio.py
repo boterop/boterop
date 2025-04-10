@@ -53,17 +53,15 @@ app.add_page(
     description=description,
     image=image,
     meta=[
-        {"name": "og:title", "content": title},
-        {"name": "og:description", "content": description},
-        {"name": "og:image", "content": "https://www.boterop.io/og.jpg"},
+        {"property": "og:title", "content": title},
+        {"property": "og:description", "content": description},
+        {"property": "og:image", "content": image},
         {"property": "og:locale", "content": locale},
-        # Facebook
         {"property": "og:url", "content": "https://www.boterop.io"},
         {"property": "og:type", "content": "website"},
-        # Twitter
         {"name": "twitter:card", "content": "summary_large_image"},
         {"property": "twitter:domain", "content": "boterop.io"},
         {"property": "twitter:url", "content": "https://www.boterop.io"},
-        {"name": "twitter:image", "content": "https://www.boterop.io/og.jpg"},
+        {"name": "twitter:image", "content": image},
     ],
 )
