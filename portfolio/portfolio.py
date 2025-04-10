@@ -55,7 +55,7 @@ app.add_page(
     meta=[
         {"name": "og:title", "content": title},
         {"name": "og:description", "content": description},
-        {"name": "og:image", "content": image},
+        {"name": "og:image", "content": "https://www.boterop.io/og.jpg"},
         {"property": "og:locale", "content": locale},
         # Facebook
         {"property": "og:url", "content": "https://www.boterop.io"},
