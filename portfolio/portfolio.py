@@ -53,17 +53,18 @@ app.add_page(
     description=description,
     image=image,
     meta=[
-        {"name": "og:title", "content": title},
-        {"name": "og:description", "content": description},
-        {"name": "og:image", "content": image},
+        {"property": "og:title", "content": title},
+        {"property": "og:description", "content": description},
         {"property": "og:locale", "content": locale},
-        # Facebook
-        {"property": "og:url", "content": "https://www.boterop.io"},
+        {"property": "og:url", "content": "https://www.boterop.io/"},
         {"property": "og:type", "content": "website"},
-        # Twitter
+        {"name": "twitter:title", "content": title},
+        {"name": "twitter:description", "content": description},
         {"name": "twitter:card", "content": "summary_large_image"},
         {"property": "twitter:domain", "content": "boterop.io"},
-        {"property": "twitter:url", "content": "https://www.boterop.io"},
-        {"name": "twitter:image", "content": "https://www.boterop.io/og.jpg"},
+        {"property": "twitter:url", "content": "https://www.boterop.io/"},
+        {"name": "twitter:image", "content": image},
+        {"name": "author", "content": "Santiago Botero Peláez"},
+        {"name": "date", "content": "2025-04-10", "scheme": "YYYY-MM-DD"},
     ],
 )
