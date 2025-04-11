@@ -62,5 +62,7 @@ app.add_page(
         {"property": "twitter:domain", "content": "boterop.io"},
         {"property": "twitter:url", "content": "https://www.boterop.io/"},
         {"name": "twitter:image", "content": image},
+        {"name": "author", "content": "Santiago Botero Peláez"},
+        {"name": "date", "content": "2025-04-10", "scheme": "YYYY-MM-DD"},
     ],
 )
