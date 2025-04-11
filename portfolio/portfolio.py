@@ -56,11 +56,11 @@ app.add_page(
         {"property": "og:title", "content": title},
         {"property": "og:description", "content": description},
         {"property": "og:locale", "content": locale},
-        {"property": "og:url", "content": "https://www.boterop.io"},
+        {"property": "og:url", "content": "https://www.boterop.io/"},
         {"property": "og:type", "content": "website"},
         {"name": "twitter:card", "content": "summary_large_image"},
         {"property": "twitter:domain", "content": "boterop.io"},
-        {"property": "twitter:url", "content": "https://www.boterop.io"},
+        {"property": "twitter:url", "content": "https://www.boterop.io/"},
         {"name": "twitter:image", "content": image},
     ],
 )
