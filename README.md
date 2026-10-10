@@ -7,7 +7,9 @@
 </div>
 
 <div align="center" style="background-color: #0d1015; padding: 1em">
-  <img src="assets/banner.jpg" alt="Profile banner" width="49%" />
+  <a href="https://www.boterop.com">
+    <img src="assets/banner.jpg" alt="Profile banner" width="49%" />
+  </a>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=boterop&amp;show_icons=true&amp;locale=en&amp;layout=compact&amp;theme=chartreuse-dark" alt="Most used languages" width="49%" />
 </div>
 
