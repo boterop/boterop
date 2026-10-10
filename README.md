@@ -6,16 +6,10 @@
 
 </div>
 
-<table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#0d1015">
-  <tr>
-    <td align="center" width="55%">
-      <img src="assets/banner.jpg" alt="Profile banner" width="100%" />
-    </td>
-    <td align="center" width="45%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=boterop&amp;show_icons=true&amp;locale=en&amp;layout=compact&amp;theme=chartreuse-dark" alt="Most used languages" width="100%" />
-    </td>
-  </tr>
-</table>
+<div align="center" style="background-color: #0d1015; padding: 1em">
+  <img src="assets/banner.jpg" alt="Profile banner" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=boterop&amp;show_icons=true&amp;locale=en&amp;layout=compact&amp;theme=chartreuse-dark" alt="Most used languages" width="49%" />
+</div>
 
 <p align="center">
   <a href="https://holopin.io/@boterop">
