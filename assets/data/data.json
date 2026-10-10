@@ -70,6 +70,29 @@
   ],
   "projects": [
     {
+      "icon": "route",
+      "title": "GPS Vehicle Tracker",
+      "subtitle": "AnswerCPI — Private Client Project",
+      "description": "I worked on the development of a real-time GPS vehicle tracking system with route management and estimated arrival times, improving logistics efficiency and the user experience.",
+      "technologies": [
+        {
+          "icon": "devicon-react-original",
+          "name": "React JS"
+        },
+        {
+          "icon": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "icon": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ],
+      "image": "projects/sgsst.jpg",
+      "url": "https://sgsst.co/",
+      "github": ""
+    },
+    {
       "icon": "podcast",
       "title": "Podnation",
       "subtitle": "Private Company Project",
