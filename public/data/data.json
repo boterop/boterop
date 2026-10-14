@@ -47,6 +47,13 @@
   ],
   "experience": [
     {
+      "icon": "at-sign",
+      "title": "AnswerCPI",
+      "subtitle": "Full Stack Engineer",
+      "description": "I designed and implemented automated workflows using n8n and Artificial Intelligence, while also developing a real-time GPS vehicle tracking system with route management and estimated arrival times.",
+      "date": "2025"
+    },
+    {
       "icon": "person-standing",
       "title": "Personal Soft",
       "subtitle": "Senior Software Developer",
@@ -69,6 +76,29 @@
     }
   ],
   "projects": [
+    {
+      "icon": "route",
+      "title": "GPS Vehicle Tracker",
+      "subtitle": "AnswerCPI — Private Client Project",
+      "description": "I worked on the development of a real-time GPS vehicle tracking system with route management and estimated arrival times, improving logistics efficiency and the user experience.",
+      "technologies": [
+        {
+          "icon": "devicon-react-original",
+          "name": "React JS"
+        },
+        {
+          "icon": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "icon": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ],
+      "image": "projects/sgsst.jpg",
+      "url": "https://sgsst.co/",
+      "github": ""
+    },
     {
       "icon": "podcast",
       "title": "Podnation",
@@ -147,6 +177,11 @@
   ],
   "extras": [
     {
+      "title": "Bold API Elixir Library",
+      "description": "Developed an Elixir library for seamless integration with the Bold API, enabling efficient payment management and simplifying interactions with the payment platform.",
+      "url": "https://hex.pm/packages/bold"
+    },
+    {
       "title": "VS Code Extensions",
       "description": "Developed Visual Studio Code widgets using npm to address both personal needs and those of others.",
       "url": "https://marketplace.visualstudio.com/publishers/boterop"
@@ -157,13 +192,8 @@
       "url": "https://pypi.org/user/boterop/"
     },
     {
-      "title": "Mobile Apps",
-      "description": "Developed cross-platform mobile applications using React Native, tailored specifically for the Android platform.",
-      "url": "https://play.google.com/store/apps/dev?id=8284076978175784771"
-    },
-    {
       "title": "XP Health - Minecraft Mod",
-      "description": "Indeed, I've created my own mods to enhance not only my personal gaming experience but also that of over 3,000 users who have downloaded them.",
+      "description": "Indeed, I've created my own mods to enhance not only my personal gaming experience but also that of over 60,000 users who have downloaded them.",
       "url": "https://www.curseforge.com/minecraft/mc-mods/xp-health"
     },
     {
